@@ -1,0 +1,33 @@
+# Ignora la cartella node_modules in frontend e backend
+frontend/node_modules/
+backend/node_modules/
+
+# Ignora i file di log
+*.log
+
+# Ignora gli ambienti di sviluppo locali
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Ignora la cartella di build di Next.js (frontend)
+frontend/.next/
+frontend/out/
+
+# Ignora la cartella di Sanity (tutti i dati generati da Sanity)
+backend/.sanity/
+
+# Ignora la cartella di cache di Sanity
+backend/.cache/
+
+# Ignora file temporanei
+*.swp
+*.swo
+*.DS_Store
+
+# Ignora file di configurazione di sistema (per MacOS, Linux, ecc.)
+.DS_Store
+Thumbs.db
+
